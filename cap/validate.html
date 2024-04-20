@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Global Bank</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Global Bank</h1>
+    </header>
+    
+
+    <div class="container">
+        <img src="Global BANK.png">
+        <form id="mainForm" novalidate>
+            <h2>Welcome to Global Bank</h2>
+            <div class="form-control">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter your name" autocomplete="off">
+                <i class="icon"></i>
+            </div>
+
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" autocomplete="off">
+                <i class="icon"></i>
+            </div>
+
+            <div class="form-control">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" placeholder="Enter your phone" autocomplete="off">
+                <i class="icon"></i>
+            </div>
+
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your password" autocomplete="off">
+                <i class="icon"></i>
+            </div>
+
+            <button type="submit">Submit</button>
+
+        </form>
+    </div>
+
+
+    <footer>
+        <p>&copy; 2024 Global Bank. All rights reserved.</p>
+    </footer>
+
+    <div id="successModal" class="modal">
+        <div class="modal-content" style="width: 100%; height: 80%; border: none;margin-top: 0;">
+            <iframe id="iframeContent" src="index.html" style="width: 100%; height: 100%; border: none;"></iframe>
+        </div>
+    </div>
+    
+
+    
+
+
+    <script src="script.js"></script>
+
+    
+</body>
+
+</html>
